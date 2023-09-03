@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Rubik-Italic';
+    src: url(./fonts/Rubik/static/Rubik-Italic.ttf);
+}
+body{
+    background: left 5% / 45% 380% repeat-x url("./img/heartBg.png");
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    text-align: center;
+    padding-top: 40px;
+}
+h1{
+    font-family: 'Rubik-Italic', sans-serif;
+    font-size: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px 10px 14px;
+    background-color: pink;
+    color: deeppink;
+    border: 2px solid deeppink;
+}
+input[type='text']{
+border: 1px solid gray;
+padding: 4px;
+font-style: italic;
+}
+input[type='text']:focus{
+    border: 2px solid deeppink;
+    outline: none;
+    padding: 4px;
+}
